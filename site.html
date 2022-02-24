@@ -2,6 +2,8 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
+    <meta content=‘width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0’ name=‘viewport’>
     <link href="main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@200&display=swap"
           rel="stylesheet">
@@ -26,17 +28,19 @@
 <body background="fone.jpg">
 <div>
     <header>
-        <h1 align="center">История Википедии <img src="img/wiki.jpg" width="60" height="60" alt="Wiki logo"></h1>
+        <h1 align="center">История Википедии <a
+                href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"><img
+                src="img/wiki.jpg" width="60" height="60" alt="Wiki logo"></a></h1>
         <hr>
         <h2>В этой статье вы сможете ответить на вопросы:</h2>
-        <ul>
-            <li><a href="#history">Какая история создания мировой энциклопедии?</a></li>
-            <li><a href="#creator"> Кто ее создатель? </a></li>
-            <li><a href="#addition"> Как добавить свою инфрмацию?</a></li>
-        </ul>
+        <nav>
+            <a href="#history">Какая история создания мировой энциклопедии?</a> <br>
+            <a href="#creator"> Кто ее создатель? </a> <br>
+            <a href="#addition"> Как добавить свою инфрмацию?</a>
+        </nav>
     </header>
     <hr>
-    <article>
+    <section>
         <a name="history"><h2>История создания Википедии</h2></a>
         <p align="justify">Википедия началась как дополнительный проект для <a
                 href="https://uk.wikipedia.org/wiki/%D0%9D%D1%83%D0%BF%D0%B5%D0%B4%D1%96%D1%8F">«Нупедии»</a> —
@@ -92,10 +96,11 @@
         </form>
         <hr>
         <footer>
-            <p>© 2022 Rozghon Kate <a href="https://www.instagram.com/wikipedia/"> <img src="img/instsagram.png" alt="Logo"
+            <p>© 2022 Rozghon Kate <a href="https://www.instagram.com/wikipedia/"> <img src="img/instsagram.png"
+                                                                                        alt="Logo"
                                                                                         width="50" height="50"></a></p>
         </footer>
-    </article>
+    </section>
 </div>
 </body>
 </html>
